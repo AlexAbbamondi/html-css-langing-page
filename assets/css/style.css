@@ -1,0 +1,115 @@
+/* Universal selector */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Element selector */
+body {
+  background-color: #d7cdcc;
+}
+
+header {
+  background-color: #1d1e2c;
+  padding: 20px 0;
+  width: 100%;
+  border-bottom: 10px solid #ffffff;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  text-align: right;
+  padding-right: 30px;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 5px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px 5px;
+}
+
+/* Image and text */
+figure {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+figcaption {
+  padding-top: 10px;
+}
+
+/* Form section */
+article {
+  padding: 50px 0 50px 0;
+  background-color: #59656f;
+  color: white;
+  border-top: 5px solid #ffffff;
+}
+
+article h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+form {
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  margin: 0 300px;
+  padding: 20px 0;
+}
+
+/* Class selector */
+.form-padding {
+  padding: 0 30px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #9c528b;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100%;
+}
+
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background-color: #1d1e2c;
+  padding: 10px 0;
+  text-align: center;
+  color: #ffffff;
+}
